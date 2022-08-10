@@ -35,7 +35,7 @@ int main(void)
 		{
 			if (execve(words[0], &words[0], NULL) == -1)
 			{
-				perror("Error");
+				perror("./shell");
 				free(line);
 				exit(EXIT_FAILURE);
 			}
