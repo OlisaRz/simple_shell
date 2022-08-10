@@ -20,7 +20,7 @@ int main(void)
 		exit(EXIT_FAILURE);
 	while (1)
 	{
-		printf("#cisfun$");
+		printf("#cisfun$ ");
 		n_read = getline(&line, &size, stdin);
 		line[n_read - 1] = '\0';
 		words = tokenize(line, delim, &count);
